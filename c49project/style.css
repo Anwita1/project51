@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    background-color:whitesmoke;}
+
+.bodyImg {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+  
+  .menu{
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      font-size: 20px;
+      font-family: sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      }
+
+      .grid{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content:space-evenly;
+      }
+
+      .grid img{
+        border: 2px solid black;
+        border-radius: 50px;
+        }
+
+        .origami {
+        border-radius: 20px;
+        background-color:white;
+        padding: 30px;
+        margin: 25px;
+        width:310px;
+        font-family: fantasy;
+        }
+        
